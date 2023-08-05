@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BOSS - Business Operating System Software</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/counterup/counterup.min.js" rel="stylesheet">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-success" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-secondary ps-5 pe-0 d-none d-lg-block">
+            <div class="row gx-0">
+                <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
+                </div>
+                <div class="col-md-6 text-center text-lg-end">
+                    <div
+                        class="position-relative d-inline-flex align-items-center bg-secondary text-white top-shape px-5">
+                        <div class="me-3 pe-3 border-end py-2">
+                            <p class="m-0"><i class="fa fa-envelope-open me-2"></i>arefeen@arefeensoftware.com</p>
+                        </div>
+                        <div class="py-2">
+                            <p class="m-0"><i class="fa fa-phone-alt me-2"></i>01713036330</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <!--h1 class="m-0"><i class="fa fa-search me-2"></i>SEO<span class="fs-5">Master</span></h1>-->
+                    <img src="img/BOSS-logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About Us</a>
+                        <a href="service.html" class="nav-item nav-link">Products</a>
+                        <a href="clients.html" class="nav-item nav-link active">Clients</a>
+                        <!--div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="404.html" class="dropdown-item">404 Page</a>
+                            </div>
+                        </div>-->
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <!--butaton type="button" class="btn text-secondary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>-->
+                    <a href="http://109.123.232.124:8055/login.aspx" target="_blank"
+                        class="btn btn-success text-light rounded-pill py-2 px-4 ms-3">BOSS Login</a>
+                </div>
+            </nav>
+
+            <div class="container-xxl bg-success hero-header my-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="container px-lg-5">
+                    <div class="row g-5">
+                        <div class="col-12 text-center">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Full Screen Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content" style="background: rgba(29, 29, 39, 0.7);">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center justify-content-center">
+                        <div class="input-group" style="max-width: 600px;">
+                            <input type="text" class="form-control bg-transparent border-light p-3"
+                                placeholder="Type search keyword">
+                            <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Full Screen Search End -->
+
+        <!-- Features Start -->
+        <!--div class="container-fluid pt-5 pb-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mb-5">
+                        <h1 class="mt-2 mb-3">32 Years Expereince</h1>
+                        <h4 class="font-weight-normal text-muted mb-4">More than 150 Satisfied Clients</h4>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-sm-6 pb-1">
+                                <div class="d-flex flex-column align-items-center border px-4 mb-4">
+                                    <h2 class="display-3 text-success mb-3" data-toggle="counter-up">32</h2>
+                                    <h5 class="font-weight-bold mb-4">Years Expereince</h5>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 pb-1">
+                                <div class="d-flex flex-column align-items-center border px-4 mb-4">
+                                    <h2 class="display-3 text-success mb-3" data-toggle="counter-up">150+</h2>
+                                    <h5 class="font-weight-bold mb-4">Happy Clients</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>--->
+        <!-- Features End -->
+
+        <!--Clients-->
+        <section>
+            <h1 class="mt-2 mb-3 text-center">Our Clients</h1>
+            <div class="tbl-header">
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <thead>
+                        <tr>
+                            <th>Company Name</th>
+                            <th>Since</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <div class="tbl-content">
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                        <tr>
+                            <td>National Life Insurance Co. Ltd.</td>
+                            <td> 20-March-1992</td>
+                        </tr>
+                        <tr>
+                            <td>KDS Garments Industries Ltd.</td>
+                            <td> 07-June-1993</td>
+                        </tr>
+                        <tr>
+                            <td>Unique Group</td>
+                            <td> 15-January-1997</td>
+                        </tr>
+                        <tr>
+                            <td>United Group</td>
+                            <td> 22-July-1998</td>
+                        </tr>
+                        <tr>
+                            <td>Unique Eastern Pvt. Ltd</td>
+                            <td> 06-August-1998</td>
+                        </tr>
+                        <tr>
+                            <td>Sonar Courier Service Ltd.</td>
+                            <td> 17-October-1999</td>
+                        </tr>
+                        <tr>
+                            <td>One Composite Mills Ltd.</td>
+                            <td> 01-May-2004</td>
+                        </tr>
+                        <tr>
+                            <td>Bibidha Banijja Shangstha</td>
+                            <td> 01-July-2004</td>
+                        </tr>
+                        <tr>
+                            <td>Unique Hotel &amp; Resorts Ltd.</td>
+                            <td> 07-June-2005</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company Of Bangladesh(GMD-Aricha)</td>
+                            <td> 01-February-2006</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company Of Bangladesh.(HO)</td>
+                            <td> 01-February-2006</td>
+                        </tr>
+                        <tr>
+                            <td>Unique Ceramics Industries Pvt. Ltd.</td>
+                            <td> 12-February-2006</td>
+                        </tr>
+                        <tr>
+                            <td>GETCO AGRI TECONOLOGIES LTD</td>
+                            <td> 26-July-2009</td>
+                        </tr>
+                        <tr>
+                            <td>Team Ltd.</td>
+                            <td> 23-December-2009</td>
+                        </tr>
+                        <tr>
+                            <td>Everbright Sweater Ltd.</td>
+                            <td> 01-April-2010</td>
+                        </tr>
+                        <tr>
+                            <td>Team Sourcing Ltd.</td>
+                            <td> 01-July-2010</td>
+                        </tr>
+                        <tr>
+                            <td>Oriental Real Estate Ltd.</td>
+                            <td> 10-October-2011</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh Ltd. (Transmission-1)</td>
+                            <td> 04-July-2013</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh Ltd. (OFCL)</td>
+                            <td> 04-July-2013</td>
+                        </tr>
+                        <tr>
+                            <td>Insight International School</td>
+                            <td> 22-August-2013</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh (GMD South-Chittagong)</td>
+                            <td> 11-September-2013</td>
+                        </tr>
+                        <tr>
+                            <td>Averroes International School</td>
+                            <td> 11-November-2013</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh (Sreemongal)</td>
+                            <td> 10-December-2013</td>
+                        </tr>
+                        <tr>
+                            <td>A3 Colour Chem Ltd.</td>
+                            <td> 14-September-2014</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh Ltd.(GMD-North,Chitagong)</td>
+                            <td> 07-April-2015</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh Ltd.(GMD-North West,Agargaon)</td>
+                            <td> 16-June-2015</td>
+                        </tr>
+                        <tr>
+                            <td>Brother International Singapore Pvt. Ltd.</td>
+                            <td> 27-August-2015</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh Ltd.(Grid Circle,Dhaka North)</td>
+                            <td> 01-September-2015</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh Ltd.(RTS-Biddut Bhaban)</td>
+                            <td> 01-September-2015</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh Ltd.(GMD-Dhaka South)</td>
+                            <td> 01-September-2015</td>
+                        </tr>
+                        <tr>
+                            <td>Bismillah Auto Solution</td>
+                            <td> 27-October-2015</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh (Communication Circle)</td>
+                            <td> 04-November-2015</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh Ltd.(Grid Circle,Dhaka South)</td>
+                            <td> 02-December-2015</td>
+                        </tr>
+                        <tr>
+                            <td>Rahmania Corporation</td>
+                            <td> 09-January-2016</td>
+                        </tr>
+                        <tr>
+                            <td>Hayes Haier Appliance Co.Ltd.</td>
+                            <td> 05-June-2016</td>
+                        </tr>
+                        <tr>
+                            <td>Dahmashi Corporation Limited</td>
+                            <td> 03-October-2016</td>
+                        </tr>
+                        <tr>
+                            <td>Bangladesh Auto Spring Industry Limited</td>
+                            <td> 04-October-2016</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh Ltd.(Mongla Khulna 230 KV T/L Project)</td>
+                            <td> 15-January-2017</td>
+                        </tr>
+                        <tr>
+                            <td>Opex &amp; Sinha Textile Group</td>
+                            <td> 09-February-2017</td>
+                        </tr>
+                        <tr>
+                            <td>Sonargaon Economic Zone Ltd.</td>
+                            <td> 18-June-2017</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh Ltd.(Grid Circle-Comilla)</td>
+                            <td> 25-July-2017</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh Ltd.(Dhaka-Chittagong MPGS Project)</td>
+                            <td> 21-August-2017</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh Ltd.(GMD-Mymensingh)</td>
+                            <td> 24-September-2017</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company Of Bangladesh (Transmission-02)</td>
+                            <td> 13-November-2017</td>
+                        </tr>
+                        <tr>
+                            <td>Abedin Paper House</td>
+                            <td> 17-December-2017</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh Ltd.(Grid Circle,Chittagong)</td>
+                            <td> 29-January-2018</td>
+                        </tr>
+                        <tr>
+                            <td>Wheaton International School</td>
+                            <td> 30-January-2018</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh-GMD(Chittagong-Central)</td>
+                            <td> 15-March-2018</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh (132 kv GNDP in Eastern Region)</td>
+                            <td> 19-March-2018</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Network Strengthening Project(G2G)</td>
+                            <td> 23-April-2018</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh Ltd.(System Operation)</td>
+                            <td> 31-May-2018</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh Ltd.(SPMD-Chittagong)</td>
+                            <td> 14-June-2018</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh Ltd.(GMD,Barisal)</td>
+                            <td> 08-July-2018</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh Ltd.(GMD,Dhaka-Central)</td>
+                            <td> 19-August-2018</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh Ltd.(GMD,Rajshahi)</td>
+                            <td> 05-November-2018</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh Ltd.-GMD,Dhaka (North)</td>
+                            <td> 04-December-2018</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh Ltd.(Aminbazar-Mowa-Mongla 400 KV T/L Project)</td>
+                            <td> 09-December-2018</td>
+                        </tr>
+                        <tr>
+                            <td>Averroes InternationalSchool (Uttara Branch)</td>
+                            <td> 04-February-2019</td>
+                        </tr>
+                        <tr>
+                            <td>Octagon Fibres &amp; Chemicals Ltd.</td>
+                            <td> 31-March-2019</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh Ltd. (Western Grid Network Development Project WGND)
+                            </td>
+                            <td> 09-May-2019</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh Ltd. (ESPNER Project)</td>
+                            <td> 14-May-2019</td>
+                        </tr>
+                        <tr>
+                            <td>School Edge</td>
+                            <td> 01-July-2019</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh Ltd.(DTIMEZ-Mirsharai Project)</td>
+                            <td> 21-July-2019</td>
+                        </tr>
+                        <tr>
+                            <td>Bengal Knittex Ltd.</td>
+                            <td> 05-August-2019</td>
+                        </tr>
+                        <tr>
+                            <td>Asian Tiger Capital Partner Investment Ltd.</td>
+                            <td> 17-September-2019</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh (GMD-Sylhet)</td>
+                            <td> 29-December-2019</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid-Replacement of Ashuganj Old 132 KV AIS Substation by New 132 KV GIS
+                                Substation Project</td>
+                            <td> 29-December-2019</td>
+                        </tr>
+                        <tr>
+                            <td>Panigram Resort Ltd.</td>
+                            <td> 01-January-2020</td>
+                        </tr>
+                        <tr>
+                            <td>Radius Enterprises</td>
+                            <td> 01-January-2020</td>
+                        </tr>
+                        <tr>
+                            <td>OS Agro Industries</td>
+                            <td> 22-February-2020</td>
+                        </tr>
+                        <tr>
+                            <td>Dipon Consultancy Services</td>
+                            <td> 02-March-2020</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company Of Bangladesh Ltd.(ESPNCA Project)</td>
+                            <td> 22-March-2020</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company Of Bangladesh(GMD-Kaliakair)</td>
+                            <td> 01-June-2020</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company Of Bangladesh(Civil-Works)</td>
+                            <td> 01-June-2020</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company Of Bangladesh(GMD-Comilla)</td>
+                            <td> 01-June-2020</td>
+                        </tr>
+                        <tr>
+                            <td>ETHER ARCHITECTS</td>
+                            <td> 20-August-2020</td>
+                        </tr>
+                        <tr>
+                            <td>PGCB (Barapokuria-Bogura-kaliakoir 400kv line Project)</td>
+                            <td> 26-August-2020</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh(Project 01)</td>
+                            <td> 27-August-2020</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company Of Bangladesh(GMD-Dinajpur)</td>
+                            <td> 28-September-2020</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh (TRTUD)</td>
+                            <td> 28-September-2020</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh (Dhaka-East,Naryanganz)</td>
+                            <td> 22-October-2020</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company of Bangladesh (GMD-Narsingdi)</td>
+                            <td> 28-October-2020</td>
+                        </tr>
+                        <tr>
+                            <td>PGCB, Accounts Head Office</td>
+                            <td> 07-December-2020</td>
+                        </tr>
+                        <tr>
+                            <td>Unicom Textile Mills Ltd.</td>
+                            <td> 18-January-2021</td>
+                        </tr>
+                        <tr>
+                            <td>Guidance International School</td>
+                            <td> 10-March-2021</td>
+                        </tr>
+                        <tr>
+                            <td>PGCB, Grid Maintenance Division, GMD Khulna North</td>
+                            <td> 21-June-2021</td>
+                        </tr>
+                        <tr>
+                            <td>Uttara Central Masjid</td>
+                            <td> 01-June-2022</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company Of Bangladesh Ltd. (400/230/132 kv GND project)</td>
+                            <td> 12-September-2022</td>
+                        </tr>
+                        <tr>
+                            <td>Power Grid Company Of Bangladesh Ltd. (CEEGSTL Project)</td>
+                            <td> 12-September-2022</td>
+                        </tr>
+                        <tr>
+                            <td>Ace Autos</td>
+                            <td> 01-October-2022</td>
+                        </tr>
+                        <tr>
+                            <td>GM Mostafa</td>
+                            <td> 12-December-2022</td>
+                        </tr>
+                        <tr>
+                            <td>SPMC, PGCB</td>
+                            <td> 01-June-2023</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <!--End Clients-->
+
+<!-- Footer Start -->
+<div class="container-fluid bg-success text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="">
+        <h5 class="text-white mb-1 text-center">Get in Touch with</h5>
+        <h2 class="text-white mb-4 text-center">Arefeen Software Ltd.</h2>
+    </div>
+    <div class="container py-1 px-lg-5">
+        <div class="footer-container">                    
+            <div class="">
+                <h5 class="text-white mb-2">Location</h5>
+                <p><i class="fa fa-map-marker-alt me-3"></i>House:35, Road:11, Sector:4, Uttara, Dhaka.</p>
+                
+            </div>
+            <div class="">
+                <h5 class="text-white mb-2">Phone</h5>
+                <p><i class="fa fa-phone-alt me-3"></i>01713036330,01739104635</p>
+            </div>
+            <div class="">
+                <h5 class="text-white mb-2">Email</h5>
+                <p><i class="fa fa-envelope me-3"></i>arefeen@arefeensoftware.com</p>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container px-lg-5">
+        <div class="copyright">
+            <div class="copyright-container">
+                <div class="text-center mb-3 mb-md-0  copyright-link">
+                    &copy; <a class="border-bottom" href="https://arefeensoftware.com">Arefeen Software Ltd</a>
+                    All
+                    Right Reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-success btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <!--<script src="lib/counterup/counterup.min.js"></script>--->
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
